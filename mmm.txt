@@ -1,0 +1,16 @@
+<i  class="fa-solid fa-check"></i>
+<i  class="fa-solid fa-plane"></i>
+<i  class="fa-solid fa-caret-up"></i>
+<i  class="fa-solid fa-thumbs-up"></i>
+<------------------------------------------------------>
+    <h1>700</h1>
+    <h1>900</h1>
+    <h1>1100</h1>
+    <h1>3500</h1>
+<--------------------------------------------------------->
+
+        
+<h1>Visit</h1>
+<h1>Trip</h1>
+<h1>Places</h1>
+<h1>Like</h1>

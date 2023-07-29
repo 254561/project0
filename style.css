@@ -1,0 +1,765 @@
+ .main{
+       width: 100%;
+    height: 10vh;
+    font-size: 100% 100%;
+    position: relative;
+  
+   
+}
+.main .nav1{
+overflow: auto;
+}
+
+.main .nav1 ul li {
+    list-style: none;
+float: right;
+font-size: 20px;
+
+
+}
+.main .nav1 .center{
+    position: absolute;
+left: 35%;
+padding-top: 10px;
+}
+.main .nav1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main .nav1 ul .left li{
+    float: left;
+    cursor: pointer;
+    font-size: 25px; 
+    color: burlywood;  
+}
+
+ul li{
+    padding: 10px 55px;
+}
+/*--------------@media sm mobile----------------------*/
+
+@media(max-width:320px){
+.main{
+    position: relative;
+}    
+.left li{
+    position: absolute;
+    right: 50px;
+}
+.center li a{
+    visibility: hidden;
+}
+}
+/*--------------@media lg mobile----------------------*/
+@media(max-width:375px){
+    
+.center li a{
+    visibility: hidden;
+}
+}
+/*-----------------------------------------------*/
+@media(max-width:425px){
+    
+    .center li a{
+        visibility: hidden;
+    }
+    }
+    
+
+/*--------------------------------------------------------*/
+
+
+.d1{
+    
+width: 100%;
+height: 100%;
+background-color: black;
+}
+
+.text1{
+    margin-top: 250px;
+margin-left: 30px;
+}
+.is{
+    margin-top: 50px;
+   
+}
+.is #i1{
+margin-left: 100px;
+}
+.is #i2{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+.is #i3{
+    margin-left: 50px;
+}
+
+.is #i4{
+    margin-left: 50px;
+}
+/*------------@media sm---------------------------------*/
+@media(max-width:320px){
+    .is{
+        position: relative;
+        width: 100%;
+height: auto;
+    }
+    #i1{
+        position: absolute;
+       width: 50px;
+       left: 70px;
+       
+    }
+    #i2{
+        position: absolute;
+       width: 50px;
+   left: 20px;   
+    }
+    #i3{
+       width: 50px;
+   position: absolute;
+   left: -50px;
+   
+    }
+    #i4{
+       width: 50px;
+       position: absolute;
+       left: 200px;
+    }
+}
+/*-------------------@media lg------------*/
+@media(max-width:375px){
+    .is{
+        position: relative;
+        width: 100%;
+height: auto;
+    }
+    #i1{
+        position: absolute;
+       width: 50px;
+       left: 70px;
+       
+    }
+    #i2{
+        position: absolute;
+       width: 50px;
+   left: 20px;   
+    }
+    #i3{
+       width: 50px;
+   position: absolute;
+   left: -50px;
+   
+    }
+    #i4{
+       width: 50px;
+       position: absolute;
+       left: 200px;
+    }
+}
+@media(max-width:425px){
+    .is{
+        position: relative;
+        width: 100%;
+height: auto;
+    }
+    #i1{
+        position: absolute;
+       width: 50px;
+       left: 70px;
+       
+    }
+    #i2{
+        position: absolute;
+       width: 50px;
+   left: 20px;   
+    }
+    #i3{
+       width: 50px;
+   position: absolute;
+   left: -50px;
+   
+    }
+    #i4{
+       width: 50px;
+       position: absolute;
+       left: 200px;
+    }
+}
+
+/*------------------------------------------------*/
+
+
+.tex{
+position: relative;    
+display: flex;
+background-color: black;
+width: 100%;
+margin-top: 50px;
+}
+.tex .h{
+    position: absolute;
+    left: 830px;
+}
+.tex .hh{    
+    position: absolute;
+    left: 730px;
+}
+.tex .hhh{
+    position: absolute;
+    left: 570px;
+}
+.tex .hhhh{
+    position: absolute;
+    left: 470px;
+}
+
+/*-------@media  sm---------------*/
+
+@media (max-width:320px){
+    .tex{
+        position: relative;    
+        display: flex;
+        margin-top: 150px;
+        width: 100%;
+        
+        }
+        .tex .h{
+            position: absolute;
+            left: 250px;
+            font-size: 20px;
+        }
+        .tex .hh{    
+            position: absolute;
+            left: 170px;
+            font-size: 20px;
+        
+        }
+        .tex .hhh{
+            position: absolute;
+            left: 80px;
+            font-size: 20px;
+        
+        }
+        .tex .hhhh{
+            position: absolute;
+            left: 5px;
+            font-size: 20px;
+        }
+        
+}
+
+@media (max-width:375px){
+    .tex{
+        position: relative;    
+        display: flex;
+        margin-top: 150px;
+        width: 100%;
+        
+        }
+        .tex .h{
+            position: absolute;
+            left: 250px;
+            font-size: 20px;
+        }
+        .tex .hh{    
+            position: absolute;
+            left: 170px;
+            font-size: 20px;
+        
+        }
+        .tex .hhh{
+            position: absolute;
+            left: 80px;
+            font-size: 20px;
+        
+        }
+        .tex .hhhh{
+            position: absolute;
+            left: 5px;
+            font-size: 20px;
+        }
+        
+}
+
+
+
+@media (max-width:425px){
+    .tex{
+        position: relative;    
+        display: flex;
+        margin-top: 150px;
+        width: 100%;
+        
+        }
+        .tex .h{
+            position: absolute;
+            left: 250px;
+            font-size: 20px;
+        }
+        .tex .hh{    
+            position: absolute;
+            left: 170px;
+            font-size: 20px;
+        
+        }
+        .tex .hhh{
+            position: absolute;
+            left: 80px;
+            font-size: 20px;
+        
+        }
+        .tex .hhhh{
+            position: absolute;
+            left: 5px;
+            font-size: 20px;
+        }
+        
+}
+
+
+
+
+/*----------------------------*/
+
+
+@media (max-width:600px) {
+.text1{
+   font-size: small;
+}
+
+
+}
+
+.di1{
+    width: 100%;
+ 
+    height:20vh;
+    position: relative;
+    text-align: center;
+}
+
+
+h5{
+   
+ bottom: 70px;
+ left: 610px;  
+ position: absolute;
+}
+h6{
+    
+ bottom: 0px;
+ left: 630px;  
+ position: absolute;
+}
+.di2{
+    width: 100%;
+    height: 100vh;
+    padding: 15px 50px;
+    position: relative;
+   
+}
+.di3{
+  
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+@media (max-width:600px) {
+    .di1{
+    position: relative;
+    }
+.di1 h5{
+    position: absolute;
+    left: 120px;
+}
+
+.di1 h6{
+    position: absolute;
+    left: 140px;
+}
+.di2 {
+    position: relative;
+    
+}
+.di2  div{
+   position: absolute;
+   right: 600px;
+   bottom: 0px;
+ overflow: hidden;
+}
+.m{
+    font-size: small;
+
+}
+.di5 .mm{
+    font-size: small;
+}
+ 
+}
+
+
+.n {
+   text-align: center; 
+   margin-top: 150px;
+}
+
+.sr1{
+    width: 40px;
+margin-left: 50px;
+height: 150px;
+
+}
+
+.sr2{
+    width: 40px;
+    height: 150px;
+    margin-left: 20px;
+
+}
+.sr3{
+    width: 40px;
+    height: 150px;
+margin-left: 30px;
+}
+.sr4{
+width: 40px;
+ height: 150px;
+margin-left: 40px;    
+}
+/*-------@media ---sm---------------------*/
+@media(max-width:320px){
+.n{
+    font-size: 15px;
+}
+    .sr1{
+        width: 40px;
+    
+    height: 150px;
+    
+    }
+    
+    .sr2{
+        width: 40px;
+        height: 150px;
+       
+    margin-top: 10px;
+    
+    }
+    .sr3{
+        width: 40px;
+        height: 150px;
+    margin-left: 30px;
+margin-top: 10px;    
+}
+    .sr4{
+        visibility: hidden;    
+    }
+    
+}
+/*--------------@media lg--------------*/
+@media(max-width:375px){
+    
+        .n{
+            font-size: 15px;
+        }
+            .sr1{
+                width: 40px;
+            
+            height: 150px;
+            
+            }
+            
+            .sr2{
+                width: 40px;
+                height: 150px;
+margin-left: 50px;               
+            margin-top: 10px;
+            
+            }
+            .sr3{
+                width: 40px;
+                height: 150px;
+            margin-left: 50px;
+        margin-top: 10px;    
+        }
+            .sr4{
+                visibility: hidden;    
+            }
+            
+        }
+
+
+/*------------------------------------*/
+@media(max-width:425px){
+    
+        .n{
+            font-size: 15px;
+        }
+            .sr1{
+                width: 40px;
+            
+            height: 150px;
+            
+            }
+            
+            .sr2{
+                width: 40px;
+                height: 150px;
+margin-left: 50px;               
+            margin-top: 10px;
+            
+            }
+            .sr3{
+                width: 40px;
+                height: 150px;
+            margin-left: 50px;
+        margin-top: 10px;    
+        }
+            .sr4{
+                visibility: hidden;    
+            }
+            
+        }
+
+
+.sr5{
+    width: 40px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.sr6{
+    width: 40px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.sr7{
+    width: 40px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.sr8{
+    width: 40px;
+    height: 150px;
+    margin-top: 30px;
+ background-attachment: fixed;
+    margin-left: 30px;
+}
+
+/*-----------media sm--------------*/
+@media (max-width:320px){
+.sr5{
+    width: 40px;
+
+height: 150px;
+
+}
+
+.sr6{
+    width: 40px;
+    height: 150px;
+margin-left: 50px;               
+margin-top: 10px;
+
+}
+.sr7{
+    width: 40px;
+    height: 150px;
+margin-left: 50px;
+margin-top: 10px;    
+}
+.sr8{
+    visibility: hidden;    
+}
+.mm{
+    width:300px;
+}
+
+@media (max-width:375px){
+    .sr5{
+        width: 40px;
+    
+    height: 150px;
+    
+    }
+    
+    .sr6{
+        width: 40px;
+        height: 150px;
+    margin-left: 50px;               
+    margin-top: 10px;
+    
+    }
+    .sr7{
+        width: 40px;
+        height: 150px;
+    margin-left: 50px;
+    margin-top: 10px;    
+    }
+    .sr8{
+        visibility: hidden;    
+    }
+
+}
+}
+
+
+/*-------------media md---------------*/
+
+
+@media (max-width:375px){
+    .sr5{
+        width: 40px;
+    
+    height: 150px;
+    
+    }
+    
+    .sr6{
+        width: 40px;
+        height: 150px;
+    margin-left: 50px;               
+    margin-top: 10px;
+    
+    }
+    .sr7{
+        width: 40px;
+        height: 150px;
+    margin-left: 50px;
+    margin-top: 10px;    
+    }
+    .sr8{
+        visibility: hidden;    
+    }
+
+    }
+/*------------media lg----------*/
+
+@media (max-width:425px){
+    .sr5{
+        width: 40px;
+    
+    height: 150px;
+    
+    }
+    
+    .sr6{
+        width: 40px;
+        height: 150px;
+    margin-left: 50px;               
+    margin-top: 10px;
+    
+    }
+    .sr7{
+        width: 40px;
+        height: 150px;
+    margin-left: 50px;
+    margin-top: 10px;    
+    }
+    .sr8{
+        visibility: hidden;    
+    }
+
+
+
+    }
+
+/*----------------------------*/
+
+@media(min-width:320px){
+    .mm{
+        width: 300px;
+    }
+}
+@media(min-width:375px){
+    .mm{
+        width: 350px;
+    }
+}
+
+
+@media(min-width:425px){
+    .mm{
+        width: 400px;
+    }
+}
+
+ @media(min-width:768px){
+    .mm{
+        width: 600px;
+    }
+ }
+/*-----------------------------------------------*/
+
+.r{
+    margin-left: 150px;
+   color: blueviolet;
+}
+
+@media(max-width:320px){
+    .r{
+        margin-left: 50px;
+        margin-top: 25px;
+        font-size: 20px;
+    }
+.r2{
+font-size: 20px;
+}
+.r3{
+    font-size: 20px;
+}
+.r4{
+    font-size: 20px;
+}
+}
+
+/*---------------------@media md--------------------*/
+@media(max-width:375px){
+    .r{
+        margin-left: 50px;
+        margin-top: 25px;
+        font-size: 20px;
+    }
+.r2{
+font-size: 20px;
+}
+.r3{
+    font-size: 20px;
+}
+.r4{
+    font-size: 20px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+.r6{
+    position: absolute;
+bottom: -60px;
+cursor: pointer;
+color: coral;
+}
+.r5{
+    position: absolute;
+    bottom: -60px;
+    color: coral;
+    cursor: pointer;
+    right:  150px;
+}
+.r4{
+cursor: pointer;
+color: coral;
+}
